@@ -1,6 +1,6 @@
 FROM debian:10
 
-COPY ./jdk-8u191-linux-x64.tar.gz /d/jdk-8u191-linux-x64.tar.gz
+#COPY ./jdk-8u191-linux-x64.tar.gz /d/jdk-8u191-linux-x64.tar.gz
 COPY ./arthas-boot.jar /www/arthas-boot.jar
 
 RUN mv /etc/apt/sources.list /etc/apt/sources.list.bak && \
